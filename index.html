@@ -48,15 +48,26 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>This is a smple website from Github presented by Paul Batey to demostrate IaC to host a static website in AWS, <a href="#work">awesome work</a>.</p>
+								<p>This is a smple website from Github presented by Paul Batey to demostrate IaC to host a static website in AWS, <a href="#work">work</a>.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/checkout.jpg" alt="" /></span>
-								<p>Sample work page</p>
-								<p>Page hosted on AWS using terraform.</p>
+								<p>Page hosted on AWS using terraform creating the following resources:</p>
+                                                                <p>1 VPC (10.0.0.0/16)</p>
+                                                                <p>2 Public subents</p>
+                                                                <p>1 Internet gateway with route table updates</p>
+                                                                <p>2 Security groups</p>
+                                                                <p>1 Application load balancer</p>
+                                                                <p>1 Target group</p>
+                                                                <p>1 Auto-scaling group</p>
+                                                                <p>1 Launch Configuration</p>
+                                                                <p>Initally 2 EC2 web instances running Apache running this sample static page</p>
+                                                                <p>DNS A record for the demo website</p>
+                                                                <p>SSL certificate for the demo website</p>
+                                                                <p>CloudWatch alarms for autoscaling</p>								
 							</article>
 
 						<!-- About -->
